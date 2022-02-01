@@ -11,8 +11,8 @@ import renderTodo, {
 
 dateElement.innerHTML = today.toLocaleDateString('en-US', options);
 const clearAllBtn = document.querySelector('.clear-todos');
-let userInput = localStorage.getItem('todoItemsRef') ?
-  JSON.parse(localStorage.getItem('todoItemsRef')) : [];
+let userInput = localStorage.getItem('todoItemsRef')
+  ? JSON.parse(localStorage.getItem('todoItemsRef')) : [];
 
 function addTodo(text) {
   const todo = {
