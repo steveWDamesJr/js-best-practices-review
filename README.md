@@ -47,6 +47,7 @@ After, create a `.eslintrc.json` file.
 Then run `npx eslint .` to print errors. 
 Use `npx eslint . --fix` to fix multiple errors.
 
+* Deploy Server: After you run npm install, run npm start on the terminal to deploy the project to the local server http://localhost:8080/.
 
 ### Usage
 - View APP 
